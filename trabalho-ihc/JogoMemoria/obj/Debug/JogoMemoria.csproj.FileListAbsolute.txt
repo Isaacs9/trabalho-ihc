@@ -1,0 +1,23 @@
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\bin\Debug\JogoMemoria.exe.config
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\bin\Debug\JogoMemoria.exe
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\bin\Debug\JogoMemoria.pdb
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\bin\Debug\MaterialSkin.dll
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csprojAssemblyReference.cache
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.FormPrincipal.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.Properties.Resources.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csproj.GenerateResource.cache
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csproj.CoreCompileInputs.cache
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csproj.CopyComplete
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.exe
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.pdb
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\bin\Debug\JogoMemoria.exe.config
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\bin\Debug\JogoMemoria.exe
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\bin\Debug\JogoMemoria.pdb
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\bin\Debug\MaterialSkin.dll
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.csprojResolveAssemblyReference.cache
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.FormPrincipal.resources
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.Properties.Resources.resources
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.csproj.GenerateResource.Cache
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.csproj.CoreCompileInputs.cache
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.exe
+C:\Users\guilherme.alves\Source\Repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.pdb
