@@ -67,6 +67,8 @@
             this.ClientSize = new System.Drawing.Size(736, 451);
             this.Controls.Add(this.tituloTemaLabel);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Opcoes";
             this.Text = "Início / Opções";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -61,12 +61,14 @@
     <Compile Include="FormPrincipal.Designer.cs">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Imagens.cs" />
     <Compile Include="JogarNivelFacil.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="JogarNivelFacil.Designer.cs">
       <DependentUpon>JogarNivelFacil.cs</DependentUpon>
     </Compile>
+    <Compile Include="Niveis.cs" />
     <Compile Include="Opcoes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +103,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Tema.resx">
       <DependentUpon>Tema.cs</DependentUpon>
@@ -118,6 +121,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Amazon_256.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -50,6 +50,7 @@
             // 
             // btnLOL
             // 
+            this.btnLOL.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnLOL.BackgroundImage")));
             this.btnLOL.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLOL.Depth = 0;
             this.btnLOL.Location = new System.Drawing.Point(170, 287);
@@ -63,6 +64,7 @@
             // 
             // btnRedesSociais
             // 
+            this.btnRedesSociais.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRedesSociais.BackgroundImage")));
             this.btnRedesSociais.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRedesSociais.Depth = 0;
             this.btnRedesSociais.Location = new System.Drawing.Point(170, 211);
@@ -112,6 +114,8 @@
             this.Controls.Add(this.tituloDificuldadeLabel);
             this.Controls.Add(this.voltarDificuldade);
             this.Location = new System.Drawing.Point(50, 103);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Dificuldade";
             this.Text = "Início / Tema / Dificuldade";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

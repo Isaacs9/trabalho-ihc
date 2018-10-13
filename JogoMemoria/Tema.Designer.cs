@@ -106,12 +106,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(712, 469);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnLOL);
             this.Controls.Add(this.btnRedesSociais);
             this.Controls.Add(this.tituloTemaLabel);
             this.Controls.Add(this.pictureBox1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Tema";
             this.Text = "Início / Tema";
             this.Load += new System.EventHandler(this.Tema_Load);

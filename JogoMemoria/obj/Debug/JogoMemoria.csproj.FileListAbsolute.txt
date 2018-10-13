@@ -9,5 +9,8 @@ D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria
 D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csproj.CopyComplete
 D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.exe
 D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.pdb
-D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csprojAssemblyReference.cache
 D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.Tema.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.Dificuldade.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.JogarNivelFacil.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.Opcoes.resources
+D:\Sistemas de Informação\Decimo Período\IHC\Trabalho\JogoMemoria\JogoMemoria\obj\Debug\JogoMemoria.csprojAssemblyReference.cache

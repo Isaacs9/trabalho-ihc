@@ -98,6 +98,8 @@
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnOpcao);
             this.Controls.Add(this.btnJogar);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FormPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Jogo da Memória";

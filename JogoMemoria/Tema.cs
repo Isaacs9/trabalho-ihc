@@ -39,6 +39,7 @@ namespace JogoMemoria
 
         private void btnRedesSociais_Click(object sender, EventArgs e)
         {
+            Program.tema = "web";
             Dificuldade dificuldade = new Dificuldade();
             abrirTela(dificuldade);
         }
@@ -63,6 +64,7 @@ namespace JogoMemoria
 
         private void btnLOL_Click(object sender, EventArgs e)
         {
+            Program.tema = "league";
             Dificuldade dificuldade = new Dificuldade();
             abrirTela(dificuldade);
         }
