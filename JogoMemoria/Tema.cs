@@ -17,14 +17,8 @@ namespace JogoMemoria
         public Tema()
         {
             InitializeComponent();
-            MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
-            materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
-            // Definindo um esquema de Cor para formulário com tom Azul
-            materialSkinManager.ColorScheme = new ColorScheme(
-                Primary.Green900, Primary.Green900,
-                Primary.LightBlue100, Accent.LightBlue200,
-                TextShade.WHITE
-            );
+            FormPrincipal.buscarCor();
+            
         }
 
         private void Tema_Load(object sender, EventArgs e)
@@ -67,6 +61,11 @@ namespace JogoMemoria
             Program.tema = "league";
             Dificuldade dificuldade = new Dificuldade();
             abrirTela(dificuldade);
+        }
+
+        private void Tema_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

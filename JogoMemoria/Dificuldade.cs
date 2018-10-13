@@ -17,6 +17,7 @@ namespace JogoMemoria
         public Dificuldade()
         {
             InitializeComponent();
+            FormPrincipal.buscarCor();
         }
 
         private void voltarDificuldade_Click(object sender, EventArgs e)
@@ -45,6 +46,11 @@ namespace JogoMemoria
         {
             JogarNivelFacil jogarNivelFacil = new JogarNivelFacil();
             abrirTela(jogarNivelFacil);
+        }
+
+        private void Dificuldade_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

@@ -39,6 +39,7 @@ namespace JogoMemoria
         public JogarNivelFacil()
         {
             InitializeComponent();
+            FormPrincipal.buscarCor();
         }
 
         // CONTROLES DE PAGINA
@@ -265,6 +266,16 @@ namespace JogoMemoria
             revelaIcones.Stop();
             escondePecas(botoes());
             tempoJogo.Enabled = true;
+        }
+
+        private void JogarNivelFacil_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void lblTempo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
