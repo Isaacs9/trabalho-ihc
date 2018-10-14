@@ -130,7 +130,7 @@ namespace JogoMemoria
             {
                 tempoJogo.Stop();
                 //som.vitoria();
-                if (MessageBox.Show("Parabéns, você ganhou!!!\n\nDeseja jogar novamente?", "Parabéns!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == System.Windows.Forms.DialogResult.Yes)
+                if (MessageBox.Show("Parabéns, você ganhou!!\n\nDeseja jogar novamente?", "Parabéns!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == System.Windows.Forms.DialogResult.Yes)
                 {
                     tentativas = 0;
                     lblTentativas.Text = "0";
@@ -139,18 +139,34 @@ namespace JogoMemoria
                 }
                 else
                 {
-                    Application.Exit();
+                    fecharTela(this);
+                    FormPrincipal principal = new FormPrincipal();
+                    principal.Show();
                 }
             }
             nCliques = 0;
+
+            if(excedeuLimiteTentativas())
+            {
+                if(MessageBox.Show("Você excedeu a quantidade de tentativas. Deseja Jogar Novamente?", "Ah não" , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                    tentativas = 0;
+                    lblTentativas.Text = "0";
+                    lblTempo.Text = "0";
+                    iniciaJogo();
+                }
+                else
+                {
+                    fecharTela(this);
+                    FormPrincipal principal = new FormPrincipal();
+                    principal.Show();
+                }
+            }
 
         }
 
         public void escondePecas(Button[] pecas)
         {
             pecas.ToList().ForEach(botoes => botoes.Visible = true);
-            //foreach (Button botoes in pecas)
-              //  botoes.Visible = true;
         }
 
         private void sairJogo_Click(object sender, EventArgs e)
@@ -276,6 +292,15 @@ namespace JogoMemoria
         private void lblTempo_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private Boolean excedeuLimiteTentativas()
+        {
+            if (Program.numTentativas == tentativas)
+            {
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -70,8 +70,6 @@
             this.lblTempoJogo = new MaterialSkin.Controls.MaterialLabel();
             this.lblTextTentativas = new MaterialSkin.Controls.MaterialLabel();
             this.lblTentativas = new MaterialSkin.Controls.MaterialLabel();
-            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
-            this.materialRaisedButton2 = new MaterialSkin.Controls.MaterialRaisedButton();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             ((System.ComponentModel.ISupportInitialize)(this.sairJogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -527,32 +525,6 @@
             this.lblTentativas.TabIndex = 47;
             this.lblTentativas.Text = "0";
             // 
-            // materialRaisedButton1
-            // 
-            this.materialRaisedButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.materialRaisedButton1.Depth = 0;
-            this.materialRaisedButton1.Location = new System.Drawing.Point(350, 182);
-            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton1.Name = "materialRaisedButton1";
-            this.materialRaisedButton1.Primary = true;
-            this.materialRaisedButton1.Size = new System.Drawing.Size(80, 80);
-            this.materialRaisedButton1.TabIndex = 5;
-            this.materialRaisedButton1.UseVisualStyleBackColor = true;
-            this.materialRaisedButton1.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // materialRaisedButton2
-            // 
-            this.materialRaisedButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.materialRaisedButton2.Depth = 0;
-            this.materialRaisedButton2.Location = new System.Drawing.Point(242, 182);
-            this.materialRaisedButton2.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialRaisedButton2.Name = "materialRaisedButton2";
-            this.materialRaisedButton2.Primary = true;
-            this.materialRaisedButton2.Size = new System.Drawing.Size(80, 80);
-            this.materialRaisedButton2.TabIndex = 4;
-            this.materialRaisedButton2.UseVisualStyleBackColor = true;
-            this.materialRaisedButton2.Click += new System.EventHandler(this.button1_Click);
-            // 
             // materialLabel1
             // 
             this.materialLabel1.AutoSize = true;
@@ -593,8 +565,6 @@
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button6);
-            this.Controls.Add(this.materialRaisedButton2);
-            this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button3);
@@ -682,8 +652,6 @@
         private MaterialSkin.Controls.MaterialLabel lblTempoJogo;
         private MaterialSkin.Controls.MaterialLabel lblTextTentativas;
         private MaterialSkin.Controls.MaterialLabel lblTentativas;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
-        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton2;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
     }
 }

@@ -9,6 +9,7 @@ namespace JogoMemoria
     static class Program
     {
         public static string tema = "";
+        public static int numTentativas = 0;
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>

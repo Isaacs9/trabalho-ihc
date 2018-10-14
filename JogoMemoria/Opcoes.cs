@@ -19,7 +19,8 @@ namespace JogoMemoria
             InitializeComponent();
             MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
             // inicialização de cores
-            switch (FormPrincipal.cor){
+            switch (FormPrincipal.cor)
+            {
                 case "verde":
                     this.radioVerde.Checked = true;
                     break;
@@ -31,12 +32,13 @@ namespace JogoMemoria
                     break;
             }
             // inicialização numero de tentativas
-            if (FormPrincipal.numTentativas > 0){
+            if (Program.numTentativas > 0)
+            {
                 labelNumTentativas.Visible = true;
                 textNumTentativas.Visible = true;
                 btnPronto.Visible = true;
                 comboNumTentavias.Text = "Sim";
-                textNumTentativas.Text = FormPrincipal.numTentativas.ToString();
+                textNumTentativas.Text = Program.numTentativas.ToString();
                 labelNumTentativas.Focus();
             }
 
@@ -72,25 +74,29 @@ namespace JogoMemoria
         }
 
         private void comboNumTentavias_SelectedIndexChanged(object sender, EventArgs e)
-        {  
-            if (comboNumTentavias.Text == "Sim"){
+        {
+            if (comboNumTentavias.Text == "Sim")
+            {
                 labelNumTentativas.Visible = true;
                 textNumTentativas.Visible = true;
                 btnPronto.Visible = true;
                 labelNumTentativas.Focus();
             }
-            else{
+            else
+            {
                 labelNumTentativas.Visible = false;
                 textNumTentativas.Visible = false;
-                btnPronto.Visible = false;    
-                FormPrincipal.numTentativas = 0;
-                
+                btnPronto.Visible = false;
+                Program.numTentativas = 0;
+
             }
         }
 
         private void btnPronto_Click(object sender, EventArgs e)
         {
-            FormPrincipal.numTentativas = int.Parse(textNumTentativas.Text);
+            Program.numTentativas = int.Parse(textNumTentativas.Text);
+            MessageBox.Show("Quantidade definida com sucesso!", "Número de Tentativas");
+            this.Visible = false;
         }
     }
 }

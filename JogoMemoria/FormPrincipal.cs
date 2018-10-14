@@ -16,7 +16,6 @@ namespace JogoMemoria
     {
         public static string tema = "";
         public static string cor = "verde";
-        public static int numTentativas = 0;
 
         static MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
 
