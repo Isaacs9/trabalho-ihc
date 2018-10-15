@@ -583,7 +583,9 @@
             this.Controls.Add(this.pictureBox11);
             this.Controls.Add(this.pictureBox12);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(940, 640);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(940, 640);
             this.Name = "JogarNivelFacil";
             this.Text = "Jogando Nível Fácil";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.JogarNivelFacil_FormClosed);

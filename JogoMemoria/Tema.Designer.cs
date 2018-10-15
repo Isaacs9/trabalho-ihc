@@ -111,7 +111,9 @@
             this.Controls.Add(this.btnRedesSociais);
             this.Controls.Add(this.pictureBox1);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(940, 640);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(940, 640);
             this.Name = "Tema";
             this.Text = "Início / Tema";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Tema_FormClosed);

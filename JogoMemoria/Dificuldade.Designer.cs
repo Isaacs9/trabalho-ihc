@@ -112,7 +112,9 @@
             this.Controls.Add(this.voltarDificuldade);
             this.Location = new System.Drawing.Point(50, 103);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(940, 640);
             this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(940, 640);
             this.Name = "Dificuldade";
             this.Text = "Início / Tema / Dificuldade";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Dificuldade_FormClosed);
