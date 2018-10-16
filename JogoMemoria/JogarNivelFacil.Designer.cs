@@ -492,7 +492,7 @@
             this.lblTempo.Depth = 0;
             this.lblTempo.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblTempo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTempo.Location = new System.Drawing.Point(855, 211);
+            this.lblTempo.Location = new System.Drawing.Point(841, 211);
             this.lblTempo.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblTempo.Name = "lblTempo";
             this.lblTempo.Size = new System.Drawing.Size(17, 19);
@@ -506,7 +506,7 @@
             this.lblTempoJogo.Depth = 0;
             this.lblTempoJogo.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblTempoJogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTempoJogo.Location = new System.Drawing.Point(723, 212);
+            this.lblTempoJogo.Location = new System.Drawing.Point(688, 211);
             this.lblTempoJogo.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblTempoJogo.Name = "lblTempoJogo";
             this.lblTempoJogo.Size = new System.Drawing.Size(114, 19);
@@ -534,7 +534,7 @@
             this.lblTentativas.Depth = 0;
             this.lblTentativas.Font = new System.Drawing.Font("Roboto", 11F);
             this.lblTentativas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.lblTentativas.Location = new System.Drawing.Point(855, 181);
+            this.lblTentativas.Location = new System.Drawing.Point(841, 181);
             this.lblTentativas.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblTentativas.Name = "lblTentativas";
             this.lblTentativas.Size = new System.Drawing.Size(17, 19);
