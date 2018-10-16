@@ -61,6 +61,7 @@
             this.btnLOL.TabIndex = 8;
             this.btnLOL.Text = "Raíz";
             this.btnLOL.UseVisualStyleBackColor = true;
+            this.btnLOL.Click += new System.EventHandler(this.btnLOL_Click);
             // 
             // btnRedesSociais
             // 

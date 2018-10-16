@@ -296,7 +296,7 @@ namespace JogoMemoria
 
         private Boolean excedeuLimiteTentativas()
         {
-            if (Program.numTentativas == tentativas)
+            if (Program.numTentativas != 0 && Program.numTentativas == tentativas)
             {
                 return true;
             }

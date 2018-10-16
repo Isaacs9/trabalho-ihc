@@ -62,6 +62,12 @@
       <DependentUpon>FormPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Imagens.cs" />
+    <Compile Include="JogarNivelDificil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="JogarNivelDificil.Designer.cs">
+      <DependentUpon>JogarNivelDificil.cs</DependentUpon>
+    </Compile>
     <Compile Include="JogarNivelFacil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="JogarNivelDificil.resx">
+      <DependentUpon>JogarNivelDificil.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="JogarNivelFacil.resx">
       <DependentUpon>JogarNivelFacil.cs</DependentUpon>

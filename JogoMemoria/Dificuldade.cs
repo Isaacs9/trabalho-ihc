@@ -52,5 +52,11 @@ namespace JogoMemoria
         {
             Application.Exit();
         }
+
+        private void btnLOL_Click(object sender, EventArgs e)
+        {
+            JogarNivelDificil jogarNivelDificil = new JogarNivelDificil();
+            abrirTela(jogarNivelDificil);
+        }
     }
 }
