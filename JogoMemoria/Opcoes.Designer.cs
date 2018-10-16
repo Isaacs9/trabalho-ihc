@@ -159,7 +159,7 @@
             this.textNumTentativas.SelectedText = "";
             this.textNumTentativas.SelectionLength = 0;
             this.textNumTentativas.SelectionStart = 0;
-            this.textNumTentativas.Size = new System.Drawing.Size(88, 23);
+            this.textNumTentativas.Size = new System.Drawing.Size(160, 23);
             this.textNumTentativas.TabIndex = 13;
             this.textNumTentativas.Text = "10";
             this.textNumTentativas.UseSystemPasswordChar = false;
@@ -182,15 +182,14 @@
             this.btnPronto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPronto.BackgroundImage")));
             this.btnPronto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPronto.Depth = 0;
-            this.btnPronto.Location = new System.Drawing.Point(455, 375);
+            this.btnPronto.Location = new System.Drawing.Point(402, 417);
             this.btnPronto.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnPronto.Name = "btnPronto";
             this.btnPronto.Primary = true;
-            this.btnPronto.Size = new System.Drawing.Size(66, 23);
+            this.btnPronto.Size = new System.Drawing.Size(66, 32);
             this.btnPronto.TabIndex = 15;
-            this.btnPronto.Text = "pronto";
+            this.btnPronto.Text = "Salvar";
             this.btnPronto.UseVisualStyleBackColor = true;
-            this.btnPronto.Visible = false;
             this.btnPronto.Click += new System.EventHandler(this.btnPronto_Click);
             // 
             // pictureBox2

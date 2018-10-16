@@ -41,8 +41,15 @@ namespace JogoMemoria
                 textNumTentativas.Text = Program.numTentativas.ToString();
                 labelNumTentativas.Focus();
             }
-
-
+            var point = new Point();
+            if (comboNumTentavias.Text == "Sim")
+            {
+                point = new Point(402, 417);
+            } else
+            {
+                point = new Point(402, 377);
+            }
+            btnPronto.Location = point;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -79,14 +86,16 @@ namespace JogoMemoria
             {
                 labelNumTentativas.Visible = true;
                 textNumTentativas.Visible = true;
-                btnPronto.Visible = true;
+                var point = new Point(402, 417);
+                btnPronto.Location = point;
                 labelNumTentativas.Focus();
             }
             else
             {
                 labelNumTentativas.Visible = false;
                 textNumTentativas.Visible = false;
-                btnPronto.Visible = false;
+                var point = new Point(402, 377);
+                btnPronto.Location = point;
                 Program.numTentativas = 0;
 
             }
@@ -94,8 +103,21 @@ namespace JogoMemoria
 
         private void btnPronto_Click(object sender, EventArgs e)
         {
-            Program.numTentativas = int.Parse(textNumTentativas.Text);
-            MessageBox.Show("Quantidade definida com sucesso!", "Número de Tentativas");
+            if (comboNumTentavias.Text == "Sim")
+            {
+                int numTentativas = int.Parse(textNumTentativas.Text);
+                if(numTentativas == 0)
+                {
+                    MessageBox.Show("O Limite de tentativas deve ser superior a 0.", "Quantidade Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
+                Program.numTentativas = numTentativas;
+            }
+            else
+            {
+                Program.numTentativas = 0;
+            }
+            MessageBox.Show("As opções foram definidas com sucesso.", "Definições");
             this.Visible = false;
         }
     }

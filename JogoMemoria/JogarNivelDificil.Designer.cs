@@ -269,7 +269,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.Location = new System.Drawing.Point(60, 136);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(60, 60);
@@ -278,7 +278,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.Location = new System.Drawing.Point(140, 136);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(60, 60);
@@ -287,7 +287,7 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.Location = new System.Drawing.Point(220, 136);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(60, 60);
@@ -296,7 +296,7 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.Location = new System.Drawing.Point(300, 136);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(60, 60);
@@ -305,7 +305,7 @@
             // 
             // pictureBox5
             // 
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.Location = new System.Drawing.Point(380, 136);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(60, 60);
@@ -314,7 +314,7 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.Location = new System.Drawing.Point(460, 136);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(60, 60);
@@ -323,7 +323,7 @@
             // 
             // pictureBox7
             // 
-            this.pictureBox7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.Location = new System.Drawing.Point(540, 136);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(60, 60);
@@ -332,7 +332,7 @@
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.Location = new System.Drawing.Point(620, 136);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(60, 60);
@@ -341,7 +341,7 @@
             // 
             // pictureBox9
             // 
-            this.pictureBox9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox9.Location = new System.Drawing.Point(60, 216);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(60, 60);
@@ -350,7 +350,7 @@
             // 
             // pictureBox10
             // 
-            this.pictureBox10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox10.Location = new System.Drawing.Point(140, 216);
             this.pictureBox10.Name = "pictureBox10";
             this.pictureBox10.Size = new System.Drawing.Size(60, 60);
@@ -359,7 +359,7 @@
             // 
             // pictureBox11
             // 
-            this.pictureBox11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox11.Location = new System.Drawing.Point(220, 216);
             this.pictureBox11.Name = "pictureBox11";
             this.pictureBox11.Size = new System.Drawing.Size(60, 60);
@@ -368,7 +368,7 @@
             // 
             // pictureBox12
             // 
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox12.Location = new System.Drawing.Point(300, 216);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(60, 60);
@@ -377,7 +377,7 @@
             // 
             // pictureBox13
             // 
-            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox13.Location = new System.Drawing.Point(380, 216);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(60, 60);
@@ -386,7 +386,7 @@
             // 
             // pictureBox14
             // 
-            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox14.Location = new System.Drawing.Point(460, 216);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(60, 60);
@@ -395,7 +395,7 @@
             // 
             // pictureBox15
             // 
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox15.Location = new System.Drawing.Point(540, 216);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(60, 60);
@@ -404,7 +404,7 @@
             // 
             // pictureBox16
             // 
-            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox16.Location = new System.Drawing.Point(620, 216);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(60, 60);
@@ -413,7 +413,7 @@
             // 
             // pictureBox17
             // 
-            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox17.Location = new System.Drawing.Point(60, 296);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(60, 60);
@@ -422,7 +422,7 @@
             // 
             // pictureBox18
             // 
-            this.pictureBox18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox18.Location = new System.Drawing.Point(140, 296);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(60, 60);
@@ -431,7 +431,7 @@
             // 
             // pictureBox19
             // 
-            this.pictureBox19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox19.Location = new System.Drawing.Point(220, 296);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(60, 60);
@@ -440,7 +440,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.Location = new System.Drawing.Point(300, 296);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(60, 60);
@@ -449,7 +449,7 @@
             // 
             // pictureBox21
             // 
-            this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox21.Location = new System.Drawing.Point(380, 296);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(60, 60);
@@ -458,7 +458,7 @@
             // 
             // pictureBox22
             // 
-            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox22.Location = new System.Drawing.Point(460, 296);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(60, 60);
@@ -467,7 +467,7 @@
             // 
             // pictureBox23
             // 
-            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox23.Location = new System.Drawing.Point(540, 296);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(60, 60);
@@ -476,7 +476,7 @@
             // 
             // pictureBox24
             // 
-            this.pictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox24.Location = new System.Drawing.Point(620, 296);
             this.pictureBox24.Name = "pictureBox24";
             this.pictureBox24.Size = new System.Drawing.Size(60, 60);
@@ -485,7 +485,7 @@
             // 
             // pictureBox25
             // 
-            this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox25.Location = new System.Drawing.Point(60, 376);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(60, 60);
@@ -494,7 +494,7 @@
             // 
             // pictureBox26
             // 
-            this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox26.Location = new System.Drawing.Point(140, 376);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(60, 60);
@@ -503,7 +503,7 @@
             // 
             // pictureBox27
             // 
-            this.pictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox27.Location = new System.Drawing.Point(220, 376);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(60, 60);
@@ -512,7 +512,7 @@
             // 
             // pictureBox28
             // 
-            this.pictureBox28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox28.Location = new System.Drawing.Point(300, 376);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(60, 60);
@@ -521,7 +521,7 @@
             // 
             // pictureBox29
             // 
-            this.pictureBox29.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox29.Location = new System.Drawing.Point(380, 376);
             this.pictureBox29.Name = "pictureBox29";
             this.pictureBox29.Size = new System.Drawing.Size(60, 60);
@@ -530,7 +530,7 @@
             // 
             // pictureBox30
             // 
-            this.pictureBox30.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox30.Location = new System.Drawing.Point(460, 376);
             this.pictureBox30.Name = "pictureBox30";
             this.pictureBox30.Size = new System.Drawing.Size(60, 60);
@@ -539,7 +539,7 @@
             // 
             // pictureBox31
             // 
-            this.pictureBox31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox31.Location = new System.Drawing.Point(540, 376);
             this.pictureBox31.Name = "pictureBox31";
             this.pictureBox31.Size = new System.Drawing.Size(60, 60);
@@ -548,7 +548,7 @@
             // 
             // pictureBox32
             // 
-            this.pictureBox32.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox32.Location = new System.Drawing.Point(620, 376);
             this.pictureBox32.Name = "pictureBox32";
             this.pictureBox32.Size = new System.Drawing.Size(60, 60);
@@ -557,7 +557,7 @@
             // 
             // pictureBox33
             // 
-            this.pictureBox33.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox33.Location = new System.Drawing.Point(60, 456);
             this.pictureBox33.Name = "pictureBox33";
             this.pictureBox33.Size = new System.Drawing.Size(60, 60);
@@ -566,7 +566,7 @@
             // 
             // pictureBox34
             // 
-            this.pictureBox34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox34.Location = new System.Drawing.Point(140, 456);
             this.pictureBox34.Name = "pictureBox34";
             this.pictureBox34.Size = new System.Drawing.Size(60, 60);
@@ -575,7 +575,7 @@
             // 
             // pictureBox35
             // 
-            this.pictureBox35.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox35.Location = new System.Drawing.Point(220, 456);
             this.pictureBox35.Name = "pictureBox35";
             this.pictureBox35.Size = new System.Drawing.Size(60, 60);
@@ -584,7 +584,7 @@
             // 
             // pictureBox36
             // 
-            this.pictureBox36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox36.Location = new System.Drawing.Point(300, 456);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(60, 60);
@@ -593,7 +593,7 @@
             // 
             // pictureBox37
             // 
-            this.pictureBox37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox37.Location = new System.Drawing.Point(380, 456);
             this.pictureBox37.Name = "pictureBox37";
             this.pictureBox37.Size = new System.Drawing.Size(60, 60);
@@ -602,7 +602,7 @@
             // 
             // pictureBox38
             // 
-            this.pictureBox38.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox38.Location = new System.Drawing.Point(460, 456);
             this.pictureBox38.Name = "pictureBox38";
             this.pictureBox38.Size = new System.Drawing.Size(60, 60);
@@ -611,7 +611,7 @@
             // 
             // pictureBox39
             // 
-            this.pictureBox39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox39.Location = new System.Drawing.Point(540, 456);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(60, 60);
@@ -620,7 +620,7 @@
             // 
             // pictureBox40
             // 
-            this.pictureBox40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox40.Location = new System.Drawing.Point(620, 456);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(60, 60);
@@ -629,7 +629,7 @@
             // 
             // pictureBox41
             // 
-            this.pictureBox41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox41.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox41.Location = new System.Drawing.Point(60, 536);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(60, 60);
@@ -638,7 +638,7 @@
             // 
             // pictureBox42
             // 
-            this.pictureBox42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox42.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox42.Location = new System.Drawing.Point(140, 536);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(60, 60);
@@ -647,7 +647,7 @@
             // 
             // pictureBox43
             // 
-            this.pictureBox43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox43.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox43.Location = new System.Drawing.Point(220, 536);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(60, 60);
@@ -656,7 +656,7 @@
             // 
             // pictureBox44
             // 
-            this.pictureBox44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox44.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox44.Location = new System.Drawing.Point(300, 536);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(60, 60);
@@ -665,7 +665,7 @@
             // 
             // pictureBox45
             // 
-            this.pictureBox45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox45.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox45.Location = new System.Drawing.Point(380, 536);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(60, 60);
@@ -674,7 +674,7 @@
             // 
             // pictureBox46
             // 
-            this.pictureBox46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox46.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox46.Location = new System.Drawing.Point(460, 536);
             this.pictureBox46.Name = "pictureBox46";
             this.pictureBox46.Size = new System.Drawing.Size(60, 60);
@@ -683,7 +683,7 @@
             // 
             // pictureBox47
             // 
-            this.pictureBox47.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox47.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox47.Location = new System.Drawing.Point(540, 536);
             this.pictureBox47.Name = "pictureBox47";
             this.pictureBox47.Size = new System.Drawing.Size(60, 60);
@@ -692,7 +692,7 @@
             // 
             // pictureBox48
             // 
-            this.pictureBox48.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox48.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox48.Location = new System.Drawing.Point(620, 536);
             this.pictureBox48.Name = "pictureBox48";
             this.pictureBox48.Size = new System.Drawing.Size(60, 60);
@@ -709,6 +709,7 @@
             this.materialRaisedButton1.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton1.TabIndex = 54;
             this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Visible = false;
             this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
             // 
             // materialRaisedButton2
@@ -721,6 +722,7 @@
             this.materialRaisedButton2.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton2.TabIndex = 55;
             this.materialRaisedButton2.UseVisualStyleBackColor = true;
+            this.materialRaisedButton2.Visible = false;
             this.materialRaisedButton2.Click += new System.EventHandler(this.materialRaisedButton2_Click);
             // 
             // materialRaisedButton3
@@ -733,6 +735,7 @@
             this.materialRaisedButton3.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton3.TabIndex = 56;
             this.materialRaisedButton3.UseVisualStyleBackColor = true;
+            this.materialRaisedButton3.Visible = false;
             this.materialRaisedButton3.Click += new System.EventHandler(this.materialRaisedButton3_Click);
             // 
             // materialRaisedButton4
@@ -745,6 +748,7 @@
             this.materialRaisedButton4.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton4.TabIndex = 57;
             this.materialRaisedButton4.UseVisualStyleBackColor = true;
+            this.materialRaisedButton4.Visible = false;
             this.materialRaisedButton4.Click += new System.EventHandler(this.materialRaisedButton4_Click);
             // 
             // materialRaisedButton5
@@ -757,6 +761,7 @@
             this.materialRaisedButton5.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton5.TabIndex = 58;
             this.materialRaisedButton5.UseVisualStyleBackColor = true;
+            this.materialRaisedButton5.Visible = false;
             this.materialRaisedButton5.Click += new System.EventHandler(this.materialRaisedButton5_Click);
             // 
             // materialRaisedButton6
@@ -769,6 +774,7 @@
             this.materialRaisedButton6.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton6.TabIndex = 59;
             this.materialRaisedButton6.UseVisualStyleBackColor = true;
+            this.materialRaisedButton6.Visible = false;
             this.materialRaisedButton6.Click += new System.EventHandler(this.materialRaisedButton6_Click);
             // 
             // materialRaisedButton7
@@ -781,6 +787,7 @@
             this.materialRaisedButton7.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton7.TabIndex = 60;
             this.materialRaisedButton7.UseVisualStyleBackColor = true;
+            this.materialRaisedButton7.Visible = false;
             this.materialRaisedButton7.Click += new System.EventHandler(this.materialRaisedButton7_Click);
             // 
             // materialRaisedButton8
@@ -793,6 +800,7 @@
             this.materialRaisedButton8.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton8.TabIndex = 61;
             this.materialRaisedButton8.UseVisualStyleBackColor = true;
+            this.materialRaisedButton8.Visible = false;
             this.materialRaisedButton8.Click += new System.EventHandler(this.materialRaisedButton8_Click);
             // 
             // materialRaisedButton9
@@ -805,6 +813,7 @@
             this.materialRaisedButton9.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton9.TabIndex = 62;
             this.materialRaisedButton9.UseVisualStyleBackColor = true;
+            this.materialRaisedButton9.Visible = false;
             this.materialRaisedButton9.Click += new System.EventHandler(this.materialRaisedButton9_Click);
             // 
             // materialRaisedButton10
@@ -817,6 +826,7 @@
             this.materialRaisedButton10.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton10.TabIndex = 63;
             this.materialRaisedButton10.UseVisualStyleBackColor = true;
+            this.materialRaisedButton10.Visible = false;
             this.materialRaisedButton10.Click += new System.EventHandler(this.materialRaisedButton10_Click);
             // 
             // materialRaisedButton11
@@ -829,6 +839,7 @@
             this.materialRaisedButton11.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton11.TabIndex = 64;
             this.materialRaisedButton11.UseVisualStyleBackColor = true;
+            this.materialRaisedButton11.Visible = false;
             this.materialRaisedButton11.Click += new System.EventHandler(this.materialRaisedButton11_Click);
             // 
             // materialRaisedButton12
@@ -841,6 +852,7 @@
             this.materialRaisedButton12.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton12.TabIndex = 65;
             this.materialRaisedButton12.UseVisualStyleBackColor = true;
+            this.materialRaisedButton12.Visible = false;
             this.materialRaisedButton12.Click += new System.EventHandler(this.materialRaisedButton12_Click);
             // 
             // materialRaisedButton13
@@ -853,6 +865,7 @@
             this.materialRaisedButton13.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton13.TabIndex = 66;
             this.materialRaisedButton13.UseVisualStyleBackColor = true;
+            this.materialRaisedButton13.Visible = false;
             this.materialRaisedButton13.Click += new System.EventHandler(this.materialRaisedButton13_Click);
             // 
             // materialRaisedButton14
@@ -865,6 +878,7 @@
             this.materialRaisedButton14.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton14.TabIndex = 67;
             this.materialRaisedButton14.UseVisualStyleBackColor = true;
+            this.materialRaisedButton14.Visible = false;
             this.materialRaisedButton14.Click += new System.EventHandler(this.materialRaisedButton14_Click);
             // 
             // materialRaisedButton15
@@ -877,6 +891,7 @@
             this.materialRaisedButton15.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton15.TabIndex = 68;
             this.materialRaisedButton15.UseVisualStyleBackColor = true;
+            this.materialRaisedButton15.Visible = false;
             this.materialRaisedButton15.Click += new System.EventHandler(this.materialRaisedButton15_Click);
             // 
             // materialRaisedButton16
@@ -889,6 +904,7 @@
             this.materialRaisedButton16.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton16.TabIndex = 69;
             this.materialRaisedButton16.UseVisualStyleBackColor = true;
+            this.materialRaisedButton16.Visible = false;
             this.materialRaisedButton16.Click += new System.EventHandler(this.materialRaisedButton16_Click);
             // 
             // materialRaisedButton17
@@ -901,6 +917,7 @@
             this.materialRaisedButton17.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton17.TabIndex = 70;
             this.materialRaisedButton17.UseVisualStyleBackColor = true;
+            this.materialRaisedButton17.Visible = false;
             this.materialRaisedButton17.Click += new System.EventHandler(this.materialRaisedButton17_Click);
             // 
             // materialRaisedButton18
@@ -913,6 +930,7 @@
             this.materialRaisedButton18.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton18.TabIndex = 71;
             this.materialRaisedButton18.UseVisualStyleBackColor = true;
+            this.materialRaisedButton18.Visible = false;
             this.materialRaisedButton18.Click += new System.EventHandler(this.materialRaisedButton18_Click);
             // 
             // materialRaisedButton19
@@ -925,6 +943,7 @@
             this.materialRaisedButton19.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton19.TabIndex = 72;
             this.materialRaisedButton19.UseVisualStyleBackColor = true;
+            this.materialRaisedButton19.Visible = false;
             this.materialRaisedButton19.Click += new System.EventHandler(this.materialRaisedButton19_Click);
             // 
             // materialRaisedButton20
@@ -937,6 +956,7 @@
             this.materialRaisedButton20.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton20.TabIndex = 73;
             this.materialRaisedButton20.UseVisualStyleBackColor = true;
+            this.materialRaisedButton20.Visible = false;
             this.materialRaisedButton20.Click += new System.EventHandler(this.materialRaisedButton20_Click);
             // 
             // materialRaisedButton21
@@ -949,6 +969,7 @@
             this.materialRaisedButton21.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton21.TabIndex = 74;
             this.materialRaisedButton21.UseVisualStyleBackColor = true;
+            this.materialRaisedButton21.Visible = false;
             this.materialRaisedButton21.Click += new System.EventHandler(this.materialRaisedButton21_Click);
             // 
             // materialRaisedButton22
@@ -961,6 +982,7 @@
             this.materialRaisedButton22.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton22.TabIndex = 75;
             this.materialRaisedButton22.UseVisualStyleBackColor = true;
+            this.materialRaisedButton22.Visible = false;
             this.materialRaisedButton22.Click += new System.EventHandler(this.materialRaisedButton22_Click);
             // 
             // materialRaisedButton23
@@ -973,6 +995,7 @@
             this.materialRaisedButton23.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton23.TabIndex = 76;
             this.materialRaisedButton23.UseVisualStyleBackColor = true;
+            this.materialRaisedButton23.Visible = false;
             this.materialRaisedButton23.Click += new System.EventHandler(this.materialRaisedButton23_Click);
             // 
             // materialRaisedButton24
@@ -985,6 +1008,7 @@
             this.materialRaisedButton24.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton24.TabIndex = 77;
             this.materialRaisedButton24.UseVisualStyleBackColor = true;
+            this.materialRaisedButton24.Visible = false;
             this.materialRaisedButton24.Click += new System.EventHandler(this.materialRaisedButton24_Click);
             // 
             // materialRaisedButton25
@@ -997,6 +1021,7 @@
             this.materialRaisedButton25.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton25.TabIndex = 78;
             this.materialRaisedButton25.UseVisualStyleBackColor = true;
+            this.materialRaisedButton25.Visible = false;
             this.materialRaisedButton25.Click += new System.EventHandler(this.materialRaisedButton25_Click);
             // 
             // materialRaisedButton26
@@ -1009,6 +1034,7 @@
             this.materialRaisedButton26.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton26.TabIndex = 79;
             this.materialRaisedButton26.UseVisualStyleBackColor = true;
+            this.materialRaisedButton26.Visible = false;
             this.materialRaisedButton26.Click += new System.EventHandler(this.materialRaisedButton26_Click);
             // 
             // materialRaisedButton27
@@ -1021,6 +1047,7 @@
             this.materialRaisedButton27.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton27.TabIndex = 80;
             this.materialRaisedButton27.UseVisualStyleBackColor = true;
+            this.materialRaisedButton27.Visible = false;
             this.materialRaisedButton27.Click += new System.EventHandler(this.materialRaisedButton27_Click);
             // 
             // materialRaisedButton28
@@ -1033,6 +1060,7 @@
             this.materialRaisedButton28.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton28.TabIndex = 81;
             this.materialRaisedButton28.UseVisualStyleBackColor = true;
+            this.materialRaisedButton28.Visible = false;
             this.materialRaisedButton28.Click += new System.EventHandler(this.materialRaisedButton28_Click);
             // 
             // materialRaisedButton29
@@ -1045,6 +1073,7 @@
             this.materialRaisedButton29.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton29.TabIndex = 82;
             this.materialRaisedButton29.UseVisualStyleBackColor = true;
+            this.materialRaisedButton29.Visible = false;
             this.materialRaisedButton29.Click += new System.EventHandler(this.materialRaisedButton29_Click);
             // 
             // materialRaisedButton30
@@ -1057,6 +1086,7 @@
             this.materialRaisedButton30.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton30.TabIndex = 83;
             this.materialRaisedButton30.UseVisualStyleBackColor = true;
+            this.materialRaisedButton30.Visible = false;
             this.materialRaisedButton30.Click += new System.EventHandler(this.materialRaisedButton30_Click);
             // 
             // materialRaisedButton31
@@ -1069,6 +1099,7 @@
             this.materialRaisedButton31.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton31.TabIndex = 84;
             this.materialRaisedButton31.UseVisualStyleBackColor = true;
+            this.materialRaisedButton31.Visible = false;
             this.materialRaisedButton31.Click += new System.EventHandler(this.materialRaisedButton31_Click);
             // 
             // materialRaisedButton32
@@ -1081,6 +1112,7 @@
             this.materialRaisedButton32.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton32.TabIndex = 85;
             this.materialRaisedButton32.UseVisualStyleBackColor = true;
+            this.materialRaisedButton32.Visible = false;
             this.materialRaisedButton32.Click += new System.EventHandler(this.materialRaisedButton32_Click);
             // 
             // materialRaisedButton33
@@ -1093,6 +1125,7 @@
             this.materialRaisedButton33.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton33.TabIndex = 86;
             this.materialRaisedButton33.UseVisualStyleBackColor = true;
+            this.materialRaisedButton33.Visible = false;
             this.materialRaisedButton33.Click += new System.EventHandler(this.materialRaisedButton33_Click);
             // 
             // materialRaisedButton34
@@ -1105,6 +1138,7 @@
             this.materialRaisedButton34.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton34.TabIndex = 87;
             this.materialRaisedButton34.UseVisualStyleBackColor = true;
+            this.materialRaisedButton34.Visible = false;
             this.materialRaisedButton34.Click += new System.EventHandler(this.materialRaisedButton34_Click);
             // 
             // materialRaisedButton35
@@ -1117,6 +1151,7 @@
             this.materialRaisedButton35.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton35.TabIndex = 88;
             this.materialRaisedButton35.UseVisualStyleBackColor = true;
+            this.materialRaisedButton35.Visible = false;
             this.materialRaisedButton35.Click += new System.EventHandler(this.materialRaisedButton35_Click);
             // 
             // materialRaisedButton36
@@ -1129,6 +1164,7 @@
             this.materialRaisedButton36.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton36.TabIndex = 89;
             this.materialRaisedButton36.UseVisualStyleBackColor = true;
+            this.materialRaisedButton36.Visible = false;
             this.materialRaisedButton36.Click += new System.EventHandler(this.materialRaisedButton36_Click);
             // 
             // materialRaisedButton37
@@ -1141,6 +1177,7 @@
             this.materialRaisedButton37.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton37.TabIndex = 90;
             this.materialRaisedButton37.UseVisualStyleBackColor = true;
+            this.materialRaisedButton37.Visible = false;
             this.materialRaisedButton37.Click += new System.EventHandler(this.materialRaisedButton37_Click);
             // 
             // materialRaisedButton38
@@ -1153,6 +1190,7 @@
             this.materialRaisedButton38.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton38.TabIndex = 91;
             this.materialRaisedButton38.UseVisualStyleBackColor = true;
+            this.materialRaisedButton38.Visible = false;
             this.materialRaisedButton38.Click += new System.EventHandler(this.materialRaisedButton38_Click);
             // 
             // materialRaisedButton39
@@ -1165,6 +1203,7 @@
             this.materialRaisedButton39.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton39.TabIndex = 92;
             this.materialRaisedButton39.UseVisualStyleBackColor = true;
+            this.materialRaisedButton39.Visible = false;
             this.materialRaisedButton39.Click += new System.EventHandler(this.materialRaisedButton39_Click);
             // 
             // materialRaisedButton40
@@ -1177,6 +1216,7 @@
             this.materialRaisedButton40.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton40.TabIndex = 93;
             this.materialRaisedButton40.UseVisualStyleBackColor = true;
+            this.materialRaisedButton40.Visible = false;
             this.materialRaisedButton40.Click += new System.EventHandler(this.materialRaisedButton40_Click);
             // 
             // materialRaisedButton41
@@ -1189,6 +1229,7 @@
             this.materialRaisedButton41.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton41.TabIndex = 94;
             this.materialRaisedButton41.UseVisualStyleBackColor = true;
+            this.materialRaisedButton41.Visible = false;
             this.materialRaisedButton41.Click += new System.EventHandler(this.materialRaisedButton41_Click);
             // 
             // materialRaisedButton42
@@ -1201,6 +1242,7 @@
             this.materialRaisedButton42.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton42.TabIndex = 95;
             this.materialRaisedButton42.UseVisualStyleBackColor = true;
+            this.materialRaisedButton42.Visible = false;
             this.materialRaisedButton42.Click += new System.EventHandler(this.materialRaisedButton42_Click);
             // 
             // materialRaisedButton43
@@ -1213,6 +1255,7 @@
             this.materialRaisedButton43.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton43.TabIndex = 96;
             this.materialRaisedButton43.UseVisualStyleBackColor = true;
+            this.materialRaisedButton43.Visible = false;
             this.materialRaisedButton43.Click += new System.EventHandler(this.materialRaisedButton43_Click);
             // 
             // materialRaisedButton44
@@ -1225,6 +1268,7 @@
             this.materialRaisedButton44.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton44.TabIndex = 97;
             this.materialRaisedButton44.UseVisualStyleBackColor = true;
+            this.materialRaisedButton44.Visible = false;
             this.materialRaisedButton44.Click += new System.EventHandler(this.materialRaisedButton44_Click);
             // 
             // materialRaisedButton45
@@ -1237,6 +1281,7 @@
             this.materialRaisedButton45.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton45.TabIndex = 98;
             this.materialRaisedButton45.UseVisualStyleBackColor = true;
+            this.materialRaisedButton45.Visible = false;
             this.materialRaisedButton45.Click += new System.EventHandler(this.materialRaisedButton45_Click);
             // 
             // materialRaisedButton46
@@ -1249,6 +1294,7 @@
             this.materialRaisedButton46.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton46.TabIndex = 99;
             this.materialRaisedButton46.UseVisualStyleBackColor = true;
+            this.materialRaisedButton46.Visible = false;
             this.materialRaisedButton46.Click += new System.EventHandler(this.materialRaisedButton46_Click);
             // 
             // materialRaisedButton47
@@ -1261,6 +1307,7 @@
             this.materialRaisedButton47.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton47.TabIndex = 100;
             this.materialRaisedButton47.UseVisualStyleBackColor = true;
+            this.materialRaisedButton47.Visible = false;
             this.materialRaisedButton47.Click += new System.EventHandler(this.materialRaisedButton47_Click);
             // 
             // materialRaisedButton48
@@ -1273,6 +1320,7 @@
             this.materialRaisedButton48.Size = new System.Drawing.Size(60, 60);
             this.materialRaisedButton48.TabIndex = 101;
             this.materialRaisedButton48.UseVisualStyleBackColor = true;
+            this.materialRaisedButton48.Visible = false;
             this.materialRaisedButton48.Click += new System.EventHandler(this.materialRaisedButton48_Click);
             // 
             // revelaIcones
