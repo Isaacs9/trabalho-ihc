@@ -219,6 +219,7 @@
             // 
             this.checkLolSom.AutoSize = true;
             this.checkLolSom.BackColor = System.Drawing.Color.Transparent;
+\\\            this.checkLolSom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.checkLolSom.Depth = 0;
             this.checkLolSom.Font = new System.Drawing.Font("Roboto", 10F);
             this.checkLolSom.Location = new System.Drawing.Point(361, 337);

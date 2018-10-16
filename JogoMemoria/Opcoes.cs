@@ -17,8 +17,6 @@ namespace JogoMemoria
         public Opcoes()
         {
             InitializeComponent();
-            //CheckBox
-            checkLolSom.SkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
             MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
             // inicialização de cores
             switch (FormPrincipal.cor)
