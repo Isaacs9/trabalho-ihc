@@ -83,7 +83,7 @@
             this.voltarDificuldade.BackColor = System.Drawing.Color.Transparent;
             this.voltarDificuldade.Cursor = System.Windows.Forms.Cursors.Hand;
             this.voltarDificuldade.Image = ((System.Drawing.Image)(resources.GetObject("voltarDificuldade.Image")));
-            this.voltarDificuldade.Location = new System.Drawing.Point(12, 76);
+            this.voltarDificuldade.Location = new System.Drawing.Point(12, 75);
             this.voltarDificuldade.Name = "voltarDificuldade";
             this.voltarDificuldade.Size = new System.Drawing.Size(39, 35);
             this.voltarDificuldade.TabIndex = 5;
