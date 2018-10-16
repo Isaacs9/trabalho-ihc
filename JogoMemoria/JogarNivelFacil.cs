@@ -156,6 +156,7 @@ namespace JogoMemoria
             if(excedeuLimiteTentativas())
             {
                 if(MessageBox.Show("Você excedeu a quantidade de tentativas. Deseja Jogar Novamente?", "Ah não" , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                    exibePecas(botoes());
                     tentativas = 0;
                     lblTentativas.Text = "0";
                     lblTempo.Text = "0";
@@ -176,10 +177,17 @@ namespace JogoMemoria
             pecas.ToList().ForEach(botoes => botoes.Visible = true);
         }
 
+        public void exibePecas(Button[] pecas)
+        {
+            pecas.ToList().ForEach(botoes => botoes.Visible = false);
+        }
+
         private void sairJogo_Click(object sender, EventArgs e)
         {
             var confirmacao = MessageBox.Show("Deseja sair do jogo atual ? ", "Confirmação ", MessageBoxButtons.YesNo);
             if(confirmacao == DialogResult.Yes){
+                Som som = new Som();
+                som.stop();
                 fecharTela(this);
                 FormPrincipal principal = new FormPrincipal();
                 principal.Show();

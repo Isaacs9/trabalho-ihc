@@ -24,6 +24,8 @@ namespace JogoMemoria
             InitializeComponent();
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             buscarCor();
+            Som som = new Som();
+            som.stop();
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
