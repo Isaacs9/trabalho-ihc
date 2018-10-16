@@ -41,6 +41,8 @@
             this.labelNumTentativas = new System.Windows.Forms.Label();
             this.btnPronto = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.checkLolSom = new MaterialSkin.Controls.MaterialCheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -72,7 +74,7 @@
             // 
             this.radioVerde.AutoSize = true;
             this.radioVerde.BackColor = System.Drawing.Color.Transparent;
-            this.radioVerde.Location = new System.Drawing.Point(412, 305);
+            this.radioVerde.Location = new System.Drawing.Point(410, 305);
             this.radioVerde.Name = "radioVerde";
             this.radioVerde.Size = new System.Drawing.Size(53, 17);
             this.radioVerde.TabIndex = 7;
@@ -109,7 +111,7 @@
             // 
             this.radioPreto.AutoSize = true;
             this.radioPreto.BackColor = System.Drawing.Color.Transparent;
-            this.radioPreto.Location = new System.Drawing.Point(471, 305);
+            this.radioPreto.Location = new System.Drawing.Point(468, 305);
             this.radioPreto.Name = "radioPreto";
             this.radioPreto.Size = new System.Drawing.Size(50, 17);
             this.radioPreto.TabIndex = 10;
@@ -123,7 +125,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(175, 335);
+            this.label3.Location = new System.Drawing.Point(175, 381);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(161, 24);
             this.label3.TabIndex = 11;
@@ -136,9 +138,9 @@
             this.comboNumTentavias.Items.AddRange(new object[] {
             "Sim",
             "Não"});
-            this.comboNumTentavias.Location = new System.Drawing.Point(361, 338);
+            this.comboNumTentavias.Location = new System.Drawing.Point(361, 384);
             this.comboNumTentavias.Name = "comboNumTentavias";
-            this.comboNumTentavias.Size = new System.Drawing.Size(160, 21);
+            this.comboNumTentavias.Size = new System.Drawing.Size(149, 21);
             this.comboNumTentavias.TabIndex = 12;
             this.comboNumTentavias.Text = "Não";
             this.comboNumTentavias.SelectedIndexChanged += new System.EventHandler(this.comboNumTentavias_SelectedIndexChanged);
@@ -151,7 +153,7 @@
             this.textNumTentativas.Depth = 0;
             this.textNumTentativas.ForeColor = System.Drawing.Color.Black;
             this.textNumTentativas.Hint = "";
-            this.textNumTentativas.Location = new System.Drawing.Point(361, 375);
+            this.textNumTentativas.Location = new System.Drawing.Point(361, 421);
             this.textNumTentativas.MouseState = MaterialSkin.MouseState.HOVER;
             this.textNumTentativas.Name = "textNumTentativas";
             this.textNumTentativas.PasswordChar = '\0';
@@ -159,7 +161,7 @@
             this.textNumTentativas.SelectedText = "";
             this.textNumTentativas.SelectionLength = 0;
             this.textNumTentativas.SelectionStart = 0;
-            this.textNumTentativas.Size = new System.Drawing.Size(160, 23);
+            this.textNumTentativas.Size = new System.Drawing.Size(149, 23);
             this.textNumTentativas.TabIndex = 13;
             this.textNumTentativas.Text = "10";
             this.textNumTentativas.UseSystemPasswordChar = false;
@@ -170,7 +172,7 @@
             this.labelNumTentativas.AutoSize = true;
             this.labelNumTentativas.BackColor = System.Drawing.Color.Transparent;
             this.labelNumTentativas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelNumTentativas.Location = new System.Drawing.Point(241, 374);
+            this.labelNumTentativas.Location = new System.Drawing.Point(241, 420);
             this.labelNumTentativas.Name = "labelNumTentativas";
             this.labelNumTentativas.Size = new System.Drawing.Size(91, 24);
             this.labelNumTentativas.TabIndex = 14;
@@ -182,7 +184,7 @@
             this.btnPronto.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPronto.BackgroundImage")));
             this.btnPronto.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnPronto.Depth = 0;
-            this.btnPronto.Location = new System.Drawing.Point(402, 417);
+            this.btnPronto.Location = new System.Drawing.Point(402, 463);
             this.btnPronto.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnPronto.Name = "btnPronto";
             this.btnPronto.Primary = true;
@@ -202,11 +204,41 @@
             this.pictureBox2.TabIndex = 16;
             this.pictureBox2.TabStop = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(222, 337);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(115, 24);
+            this.label4.TabIndex = 17;
+            this.label4.Text = "habilitar som";
+            // 
+            // checkLolSom
+            // 
+            this.checkLolSom.AutoSize = true;
+            this.checkLolSom.BackColor = System.Drawing.Color.Transparent;
+            this.checkLolSom.Depth = 0;
+            this.checkLolSom.Font = new System.Drawing.Font("Roboto", 10F);
+            this.checkLolSom.Location = new System.Drawing.Point(361, 337);
+            this.checkLolSom.Margin = new System.Windows.Forms.Padding(0);
+            this.checkLolSom.MouseLocation = new System.Drawing.Point(-1, -1);
+            this.checkLolSom.MouseState = MaterialSkin.MouseState.HOVER;
+            this.checkLolSom.Name = "checkLolSom";
+            this.checkLolSom.Ripple = true;
+            this.checkLolSom.Size = new System.Drawing.Size(149, 30);
+            this.checkLolSom.TabIndex = 19;
+            this.checkLolSom.Text = "League Of Legends";
+            this.checkLolSom.UseVisualStyleBackColor = false;
+            // 
             // Opcoes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 640);
+            this.Controls.Add(this.checkLolSom);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnPronto);
             this.Controls.Add(this.labelNumTentativas);
@@ -226,6 +258,7 @@
             this.Name = "Opcoes";
             this.Text = "Início / Opções";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Opcoes_FormClosed);
+            this.Load += new System.EventHandler(this.Opcoes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -246,5 +279,7 @@
         private System.Windows.Forms.Label labelNumTentativas;
         private MaterialSkin.Controls.MaterialRaisedButton btnPronto;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label4;
+        private MaterialSkin.Controls.MaterialCheckBox checkLolSom;
     }
 }

@@ -10,6 +10,7 @@ namespace JogoMemoria
     {
         public static string tema = "";
         public static int numTentativas = 0;
+        public static Boolean soundLol = false;
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>

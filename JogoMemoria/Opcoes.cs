@@ -17,6 +17,8 @@ namespace JogoMemoria
         public Opcoes()
         {
             InitializeComponent();
+            //CheckBox
+            checkLolSom.SkinManager.ColorScheme = new ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.LightBlue200, TextShade.WHITE);
             MaterialSkinManager materialSkinManager = MaterialSkinManager.Instance;
             // inicialização de cores
             switch (FormPrincipal.cor)
@@ -31,6 +33,13 @@ namespace JogoMemoria
                     this.radioAzul.Checked = true;
                     break;
             }
+            if(Program.soundLol)
+            {
+                checkLolSom.CheckState = CheckState.Checked;
+            } else
+            {
+                checkLolSom.CheckState = CheckState.Unchecked;
+            }
             // inicialização numero de tentativas
             if (Program.numTentativas > 0)
             {
@@ -44,10 +53,10 @@ namespace JogoMemoria
             var point = new Point();
             if (comboNumTentavias.Text == "Sim")
             {
-                point = new Point(402, 417);
+                point = new Point(402, 463);
             } else
             {
-                point = new Point(402, 377);
+                point = new Point(402, 417);
             }
             btnPronto.Location = point;
         }
@@ -86,7 +95,7 @@ namespace JogoMemoria
             {
                 labelNumTentativas.Visible = true;
                 textNumTentativas.Visible = true;
-                var point = new Point(402, 417);
+                var point = new Point(402, 463);
                 btnPronto.Location = point;
                 labelNumTentativas.Focus();
             }
@@ -94,7 +103,7 @@ namespace JogoMemoria
             {
                 labelNumTentativas.Visible = false;
                 textNumTentativas.Visible = false;
-                var point = new Point(402, 377);
+                var point = new Point(402, 417);
                 btnPronto.Location = point;
                 Program.numTentativas = 0;
 
@@ -103,6 +112,14 @@ namespace JogoMemoria
 
         private void btnPronto_Click(object sender, EventArgs e)
         {
+            if(checkLolSom.Checked) {
+                Program.soundLol = true;
+            }
+            else
+            {
+                Program.soundLol = false;
+                checkLolSom.Text = "Unchecked";
+            }
             if (comboNumTentavias.Text == "Sim")
             {
                 int numTentativas = int.Parse(textNumTentativas.Text);
@@ -119,6 +136,11 @@ namespace JogoMemoria
             }
             MessageBox.Show("As opções foram definidas com sucesso.", "Definições");
             this.Visible = false;
+        }
+
+        private void Opcoes_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
