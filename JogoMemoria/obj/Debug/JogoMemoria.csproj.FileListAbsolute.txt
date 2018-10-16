@@ -28,3 +28,5 @@ C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMem
 C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.csproj.CoreCompileInputs.cache
 C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.exe
 C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.pdb
+C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.csprojResolveAssemblyReference.cache
+C:\Users\guilherme.alves\source\repos\trabalho-ihc\JogoMemoria\obj\Debug\JogoMemoria.JogarNivelDificil.resources
