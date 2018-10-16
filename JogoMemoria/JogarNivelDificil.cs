@@ -63,8 +63,11 @@ namespace JogoMemoria
         public void iniciaJogo()
         {
             revelaIcones.Start();
-            //Som som = new Som();
-            //som.somAmbiente();
+            if (Program.soundLol)
+            {
+                Som som = new Som();
+                som.somAmbiente();
+            }
 
             Image[] bancoImagens = new Image[24];                                               
             Niveis niv = new Niveis();
@@ -115,7 +118,7 @@ namespace JogoMemoria
 
         public void comparaImagens()
         {
-            //Som som = new Som();
+            Som som = new Som();
             if (pecas()[primeiroBotao].Image != pecas()[segundoBotao].Image)
             {
                 tentativas++;
@@ -125,14 +128,19 @@ namespace JogoMemoria
             else
             {
                 pares--;
-
-                //som.executaSomHeroi(pecas()[segundoBotao].Image);
+                if (Program.soundLol)
+                {
+                    som.executaSomHeroi(pecas()[segundoBotao].Image);
+                }
             }
 
             if (pares == 0)
             {
                 tempoJogo.Stop();
-                //som.vitoria();
+                if (Program.soundLol)
+                {
+                    som.vitoria();
+                }
                 if (MessageBox.Show("Parabéns, você ganhou!!\n\nDeseja jogar novamente?", "Parabéns!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == System.Windows.Forms.DialogResult.Yes)
                 {
                     tentativas = 0;
@@ -178,6 +186,8 @@ namespace JogoMemoria
             var confirmacao = MessageBox.Show("Deseja sair do jogo atual ? ", "Confirmação ", MessageBoxButtons.YesNo);
             if (confirmacao == DialogResult.Yes)
             {
+                Som som = new Som();
+                som.stop();
                 fecharTela(this);
                 FormPrincipal principal = new FormPrincipal();
                 principal.Show();
