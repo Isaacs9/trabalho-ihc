@@ -186,6 +186,8 @@ namespace JogoMemoria
             var confirmacao = MessageBox.Show("Deseja sair do jogo atual ? ", "Confirmação ", MessageBoxButtons.YesNo);
             if (confirmacao == DialogResult.Yes)
             {
+                Som som = new Som();
+                som.stop();
                 fecharTela(this);
                 FormPrincipal principal = new FormPrincipal();
                 principal.Show();

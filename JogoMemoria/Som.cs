@@ -38,5 +38,14 @@ namespace JogoMemoria
                 simpleSound.Play();
             }
         }
+
+        public void stop()
+        {
+            if (Program.tema == "league")
+            {
+                SoundPlayer simpleSound = new SoundPlayer();
+                simpleSound.Stop();
+            }
+        }
     }
 }
