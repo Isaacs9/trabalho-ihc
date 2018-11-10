@@ -33,6 +33,7 @@
             this.btnSair = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnOpcao = new MaterialSkin.Controls.MaterialRaisedButton();
             this.btnJogar = new MaterialSkin.Controls.MaterialRaisedButton();
+            this.materialRaisedButton1 = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,7 +51,7 @@
             // 
             this.btnSair.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSair.Depth = 0;
-            this.btnSair.Location = new System.Drawing.Point(173, 447);
+            this.btnSair.Location = new System.Drawing.Point(173, 486);
             this.btnSair.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnSair.Name = "btnSair";
             this.btnSair.Primary = true;
@@ -64,7 +65,7 @@
             // 
             this.btnOpcao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnOpcao.Depth = 0;
-            this.btnOpcao.Location = new System.Drawing.Point(173, 316);
+            this.btnOpcao.Location = new System.Drawing.Point(173, 303);
             this.btnOpcao.MouseState = MaterialSkin.MouseState.HOVER;
             this.btnOpcao.Name = "btnOpcao";
             this.btnOpcao.Primary = true;
@@ -89,12 +90,27 @@
             this.btnJogar.UseVisualStyleBackColor = true;
             this.btnJogar.Click += new System.EventHandler(this.btnJogar_Click);
             // 
+            // materialRaisedButton1
+            // 
+            this.materialRaisedButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.materialRaisedButton1.Depth = 0;
+            this.materialRaisedButton1.Location = new System.Drawing.Point(173, 378);
+            this.materialRaisedButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialRaisedButton1.Name = "materialRaisedButton1";
+            this.materialRaisedButton1.Primary = true;
+            this.materialRaisedButton1.Size = new System.Drawing.Size(332, 58);
+            this.materialRaisedButton1.TabIndex = 5;
+            this.materialRaisedButton1.Text = "Ranking";
+            this.materialRaisedButton1.UseVisualStyleBackColor = true;
+            this.materialRaisedButton1.Click += new System.EventHandler(this.materialRaisedButton1_Click);
+            // 
             // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(940, 640);
+            this.Controls.Add(this.materialRaisedButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnOpcao);
@@ -118,6 +134,7 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnSair;
         private MaterialSkin.Controls.MaterialRaisedButton btnOpcao;
         private MaterialSkin.Controls.MaterialRaisedButton btnJogar;
+        private MaterialSkin.Controls.MaterialRaisedButton materialRaisedButton1;
     }
 }
 

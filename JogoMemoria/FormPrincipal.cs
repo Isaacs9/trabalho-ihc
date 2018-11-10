@@ -112,5 +112,11 @@ namespace JogoMemoria
             }
                 
         }
+
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
+            abrirTela(new Ranking());
+
+        }
     }
 }

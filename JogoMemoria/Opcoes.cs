@@ -48,15 +48,7 @@ namespace JogoMemoria
                 textNumTentativas.Text = Program.numTentativas.ToString();
                 labelNumTentativas.Focus();
             }
-            var point = new Point();
-            if (comboNumTentavias.Text == "Sim")
-            {
-                point = new Point(402, 463);
-            } else
-            {
-                point = new Point(402, 417);
-            }
-            btnPronto.Location = point;
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
