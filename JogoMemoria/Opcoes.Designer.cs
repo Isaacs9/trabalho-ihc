@@ -42,7 +42,7 @@
             this.btnPronto = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.checkLolSom = new MaterialSkin.Controls.MaterialCheckBox();
+            this.checkLolSom = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -74,7 +74,7 @@
             // 
             this.radioVerde.AutoSize = true;
             this.radioVerde.BackColor = System.Drawing.Color.Transparent;
-            this.radioVerde.Location = new System.Drawing.Point(410, 305);
+            this.radioVerde.Location = new System.Drawing.Point(465, 305);
             this.radioVerde.Name = "radioVerde";
             this.radioVerde.Size = new System.Drawing.Size(53, 17);
             this.radioVerde.TabIndex = 7;
@@ -111,7 +111,7 @@
             // 
             this.radioPreto.AutoSize = true;
             this.radioPreto.BackColor = System.Drawing.Color.Transparent;
-            this.radioPreto.Location = new System.Drawing.Point(468, 305);
+            this.radioPreto.Location = new System.Drawing.Point(412, 305);
             this.radioPreto.Name = "radioPreto";
             this.radioPreto.Size = new System.Drawing.Size(50, 17);
             this.radioPreto.TabIndex = 10;
@@ -219,17 +219,10 @@
             // 
             this.checkLolSom.AutoSize = true;
             this.checkLolSom.BackColor = System.Drawing.Color.Transparent;
-            this.checkLolSom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.checkLolSom.Depth = 0;
-            this.checkLolSom.Font = new System.Drawing.Font("Roboto", 10F);
-            this.checkLolSom.Location = new System.Drawing.Point(361, 337);
-            this.checkLolSom.Margin = new System.Windows.Forms.Padding(0);
-            this.checkLolSom.MouseLocation = new System.Drawing.Point(-1, -1);
-            this.checkLolSom.MouseState = MaterialSkin.MouseState.HOVER;
+            this.checkLolSom.Location = new System.Drawing.Point(361, 343);
             this.checkLolSom.Name = "checkLolSom";
-            this.checkLolSom.Ripple = true;
-            this.checkLolSom.Size = new System.Drawing.Size(149, 30);
-            this.checkLolSom.TabIndex = 19;
+            this.checkLolSom.Size = new System.Drawing.Size(120, 17);
+            this.checkLolSom.TabIndex = 20;
             this.checkLolSom.Text = "League Of Legends";
             this.checkLolSom.UseVisualStyleBackColor = false;
             // 
@@ -281,6 +274,6 @@
         private MaterialSkin.Controls.MaterialRaisedButton btnPronto;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label4;
-        private MaterialSkin.Controls.MaterialCheckBox checkLolSom;
+        private System.Windows.Forms.CheckBox checkLolSom;
     }
 }
