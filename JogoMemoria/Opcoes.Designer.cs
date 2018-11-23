@@ -43,14 +43,14 @@
             this.btnPronto = new MaterialSkin.Controls.MaterialRaisedButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.materialSingleLineTextField1 = new MaterialSkin.Controls.MaterialSingleLineTextField();
+            this.namePlayer = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.quantRanking = new System.Windows.Forms.NumericUpDown();
             this.textNumTentativas = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantRanking)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textNumTentativas)).BeginInit();
             this.SuspendLayout();
             // 
@@ -150,6 +150,7 @@
             this.labelNumTentativas.Size = new System.Drawing.Size(91, 24);
             this.labelNumTentativas.TabIndex = 14;
             this.labelNumTentativas.Text = "quantas ?";
+            this.labelNumTentativas.Visible = false;
             // 
             // label4
             // 
@@ -221,26 +222,26 @@
             this.label5.TabIndex = 22;
             this.label5.Text = "nome do jogador:";
             // 
-            // materialSingleLineTextField1
+            // namePlayer
             // 
-            this.materialSingleLineTextField1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.namePlayer.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.materialSingleLineTextField1.BackColor = System.Drawing.Color.White;
-            this.materialSingleLineTextField1.Depth = 0;
-            this.materialSingleLineTextField1.ForeColor = System.Drawing.Color.Black;
-            this.materialSingleLineTextField1.Hint = "";
-            this.materialSingleLineTextField1.Location = new System.Drawing.Point(360, 386);
-            this.materialSingleLineTextField1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialSingleLineTextField1.Name = "materialSingleLineTextField1";
-            this.materialSingleLineTextField1.PasswordChar = '\0';
-            this.materialSingleLineTextField1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.materialSingleLineTextField1.SelectedText = "";
-            this.materialSingleLineTextField1.SelectionLength = 0;
-            this.materialSingleLineTextField1.SelectionStart = 0;
-            this.materialSingleLineTextField1.Size = new System.Drawing.Size(149, 23);
-            this.materialSingleLineTextField1.TabIndex = 21;
-            this.materialSingleLineTextField1.Text = "Jogador 1";
-            this.materialSingleLineTextField1.UseSystemPasswordChar = false;
+            this.namePlayer.BackColor = System.Drawing.Color.White;
+            this.namePlayer.Depth = 0;
+            this.namePlayer.ForeColor = System.Drawing.Color.Black;
+            this.namePlayer.Hint = "";
+            this.namePlayer.Location = new System.Drawing.Point(360, 386);
+            this.namePlayer.MouseState = MaterialSkin.MouseState.HOVER;
+            this.namePlayer.Name = "namePlayer";
+            this.namePlayer.PasswordChar = '\0';
+            this.namePlayer.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.namePlayer.SelectedText = "";
+            this.namePlayer.SelectionLength = 0;
+            this.namePlayer.SelectionStart = 0;
+            this.namePlayer.Size = new System.Drawing.Size(149, 23);
+            this.namePlayer.TabIndex = 21;
+            this.namePlayer.Text = "Jogador 1";
+            this.namePlayer.UseSystemPasswordChar = false;
             // 
             // label6
             // 
@@ -264,13 +265,13 @@
             this.label7.TabIndex = 25;
             this.label7.Text = "armazenados no ranking:";
             // 
-            // numericUpDown1
+            // quantRanking
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(361, 438);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(149, 20);
-            this.numericUpDown1.TabIndex = 26;
-            this.numericUpDown1.Value = new decimal(new int[] {
+            this.quantRanking.Location = new System.Drawing.Point(361, 438);
+            this.quantRanking.Name = "quantRanking";
+            this.quantRanking.Size = new System.Drawing.Size(149, 20);
+            this.quantRanking.TabIndex = 26;
+            this.quantRanking.Value = new decimal(new int[] {
             5,
             0,
             0,
@@ -287,6 +288,7 @@
             0,
             0,
             0});
+            this.textNumTentativas.Visible = false;
             // 
             // Opcoes
             // 
@@ -294,11 +296,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 640);
             this.Controls.Add(this.textNumTentativas);
-            this.Controls.Add(this.numericUpDown1);
+            this.Controls.Add(this.quantRanking);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.materialSingleLineTextField1);
+            this.Controls.Add(this.namePlayer);
             this.Controls.Add(this.checkLolSom);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox2);
@@ -322,7 +324,7 @@
             this.Load += new System.EventHandler(this.Opcoes_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quantRanking)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textNumTentativas)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -344,10 +346,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox checkLolSom;
         private System.Windows.Forms.Label label5;
-        private MaterialSkin.Controls.MaterialSingleLineTextField materialSingleLineTextField1;
+        private MaterialSkin.Controls.MaterialSingleLineTextField namePlayer;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown quantRanking;
         private System.Windows.Forms.NumericUpDown textNumTentativas;
     }
 }

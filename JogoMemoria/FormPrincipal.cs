@@ -110,7 +110,7 @@ namespace JogoMemoria
                     );
                     break;
             }
-                
+            Program.cor = cor;
         }
 
         private void materialRaisedButton1_Click(object sender, EventArgs e)
