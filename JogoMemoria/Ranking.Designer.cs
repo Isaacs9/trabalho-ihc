@@ -71,7 +71,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(60, 157);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(795, 314);
+            this.dataGridView1.Size = new System.Drawing.Size(793, 314);
             this.dataGridView1.TabIndex = 19;
             // 
             // materialDivider1
@@ -81,7 +81,7 @@
             this.materialDivider1.Location = new System.Drawing.Point(60, 157);
             this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider1.Name = "materialDivider1";
-            this.materialDivider1.Size = new System.Drawing.Size(795, 314);
+            this.materialDivider1.Size = new System.Drawing.Size(793, 314);
             this.materialDivider1.TabIndex = 9;
             this.materialDivider1.Text = "materialDivider1";
             // 

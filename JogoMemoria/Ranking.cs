@@ -17,7 +17,7 @@ namespace JogoMemoria
         public Ranking()
         {
             InitializeComponent();
-            dataGridView1.BorderStyle = BorderStyle.None;
+            dataGridView1.BorderStyle = BorderStyle.Fixed3D;
             dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(238, 239, 249);
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
             dataGridView1.DefaultCellStyle.SelectionForeColor = Color.Black;
