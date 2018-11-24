@@ -145,7 +145,7 @@ namespace JogoMemoria
                 {
                     Program.playerRankings.RemoveAt(0);
                 }
-                Program.playerRankings.Add(new PlayerRanking("Difícil", Program.tema, tentativas, lblTempo.Text, "Venceu"));
+                Program.playerRankings.Add(new PlayerRanking("Difícil", Program.tema, tentativas, lblTempo.Text, "Venceu", Program.nomeJogador));
                 if (MessageBox.Show("Parabéns, você ganhou!!\n\nDeseja jogar novamente?", "Parabéns!", MessageBoxButtons.YesNo, MessageBoxIcon.Exclamation) == System.Windows.Forms.DialogResult.Yes)
                 {
                     tentativas = 0;
@@ -168,7 +168,7 @@ namespace JogoMemoria
                 {
                     Program.playerRankings.RemoveAt(0);
                 }
-                Program.playerRankings.Add(new PlayerRanking("Difícil", Program.tema, tentativas, lblTempo.Text, "Perdeu"));
+                Program.playerRankings.Add(new PlayerRanking("Difícil", Program.tema, tentativas, lblTempo.Text, "Perdeu", Program.nomeJogador));
                 if (MessageBox.Show("Você excedeu a quantidade de tentativas. Deseja Jogar Novamente?", "Ah não", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes)
                 {
                     exibePecas(botoes());

@@ -17,7 +17,6 @@ namespace JogoMemoria
         public Ranking()
         {
             InitializeComponent();
-            nomeJogador.Text = Program.nomeJogador;
             dataGridView1.BorderStyle = BorderStyle.None;
             dataGridView1.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(238, 239, 249);
             dataGridView1.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
@@ -28,8 +27,7 @@ namespace JogoMemoria
             dataGridView1.ClearSelection();
             dataGridView1.BackgroundColor = Color.White;
             dataGridView1.EnableHeadersVisualStyles = false;
-            dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            switch (Program.cor)
+            dataGridView1.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;    switch (Program.cor)
             {
                 case "verde":
                     dataGridView1.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(53, 127, 56);
@@ -48,7 +46,7 @@ namespace JogoMemoria
             //set data
             Program.playerRankings.ForEach(f =>
             {
-                dataGridView1.Rows.Add(f.nivel, f.tema, f.tempoDeJogo, f.quantidadeErros);
+                dataGridView1.Rows.Add(f.jogador,f.status, f.nivel, f.tema, f.tempoDeJogo, f.quantidadeErros);
             });
         }
 
