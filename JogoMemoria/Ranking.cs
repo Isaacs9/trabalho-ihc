@@ -46,7 +46,7 @@ namespace JogoMemoria
             //set data
             Program.playerRankings.ForEach(f =>
             {
-                dataGridView1.Rows.Add(f.jogador,f.status, f.nivel, f.tema, f.tempoDeJogo, f.quantidadeErros);
+                dataGridView1.Rows.Add(f.jogador,f.status, f.nivel, f.tema, f.tempoDeJogo + " Segundos", f.quantidadeErros);
             });
         }
 
