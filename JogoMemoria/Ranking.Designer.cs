@@ -31,13 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ranking));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.jogador = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.status = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nivel = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tema = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tempoJogo = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.quantErrors = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
+            this.cleanRanking = new MaterialSkin.Controls.MaterialRaisedButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -73,17 +74,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(793, 314);
             this.dataGridView1.TabIndex = 19;
-            // 
-            // materialDivider1
-            // 
-            this.materialDivider1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.materialDivider1.Depth = 0;
-            this.materialDivider1.Location = new System.Drawing.Point(60, 157);
-            this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialDivider1.Name = "materialDivider1";
-            this.materialDivider1.Size = new System.Drawing.Size(793, 314);
-            this.materialDivider1.TabIndex = 9;
-            this.materialDivider1.Text = "materialDivider1";
             // 
             // jogador
             // 
@@ -127,11 +117,37 @@
             this.quantErrors.ReadOnly = true;
             this.quantErrors.Width = 110;
             // 
+            // materialDivider1
+            // 
+            this.materialDivider1.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.materialDivider1.Depth = 0;
+            this.materialDivider1.Location = new System.Drawing.Point(60, 157);
+            this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialDivider1.Name = "materialDivider1";
+            this.materialDivider1.Size = new System.Drawing.Size(793, 314);
+            this.materialDivider1.TabIndex = 9;
+            this.materialDivider1.Text = "materialDivider1";
+            // 
+            // cleanRanking
+            // 
+            this.cleanRanking.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.cleanRanking.Depth = 0;
+            this.cleanRanking.Location = new System.Drawing.Point(734, 118);
+            this.cleanRanking.MouseState = MaterialSkin.MouseState.HOVER;
+            this.cleanRanking.Name = "cleanRanking";
+            this.cleanRanking.Primary = true;
+            this.cleanRanking.Size = new System.Drawing.Size(119, 33);
+            this.cleanRanking.TabIndex = 20;
+            this.cleanRanking.Text = "Limpar Ranking";
+            this.cleanRanking.UseVisualStyleBackColor = true;
+            this.cleanRanking.Click += new System.EventHandler(this.cleanRanking_Click);
+            // 
             // Ranking
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(940, 640);
+            this.Controls.Add(this.cleanRanking);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.materialDivider1);
@@ -157,5 +173,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tema;
         private System.Windows.Forms.DataGridViewTextBoxColumn tempoJogo;
         private System.Windows.Forms.DataGridViewTextBoxColumn quantErrors;
+        private MaterialSkin.Controls.MaterialRaisedButton cleanRanking;
     }
 }

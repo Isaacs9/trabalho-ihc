@@ -59,5 +59,11 @@ namespace JogoMemoria
         {
             this.Visible = false;
         }
+
+        private void cleanRanking_Click(object sender, EventArgs e)
+        {
+            Program.playerRankings = new List<PlayerRanking>();
+            dataGridView1.Rows.Clear();
+        }
     }
 }

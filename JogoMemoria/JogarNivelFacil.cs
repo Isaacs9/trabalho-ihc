@@ -160,6 +160,7 @@ namespace JogoMemoria
 
             if(excedeuLimiteTentativas())
             {
+                tempoJogo.Stop();
                 if (Program.playerRankings.Count == Program.quantidadeRanking)
                 {
                     Program.playerRankings.RemoveAt(0);
