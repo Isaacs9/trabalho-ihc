@@ -24,6 +24,8 @@ namespace JogoMemoria
             InitializeComponent();
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             buscarCor();
+            Som som = new Som();
+            som.stop();
         }
 
         private void FormPrincipal_Load(object sender, EventArgs e)
@@ -108,7 +110,13 @@ namespace JogoMemoria
                     );
                     break;
             }
-                
+            Program.cor = cor;
+        }
+
+        private void materialRaisedButton1_Click(object sender, EventArgs e)
+        {
+            abrirTela(new Ranking());
+
         }
     }
 }

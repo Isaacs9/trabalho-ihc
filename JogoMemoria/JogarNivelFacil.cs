@@ -137,6 +137,11 @@ namespace JogoMemoria
                 {
                     som.vitoria();
                 }
+                if(Program.playerRankings.Count == Program.quantidadeRanking)
+                {
+                    Program.playerRankings.RemoveAt(0);
+                }
+                Program.playerRankings.Add(new PlayerRanking("Fácil", Program.tema, tentativas, lblTempo.Text, "Venceu"));
                 if (MessageBox.Show("Parabéns, você ganhou!!\n\nDeseja jogar novamente?", "Parabéns!", MessageBoxButtons.YesNo, MessageBoxIcon.Information) == System.Windows.Forms.DialogResult.Yes)
                 {
                     tentativas = 0;
@@ -155,7 +160,13 @@ namespace JogoMemoria
 
             if(excedeuLimiteTentativas())
             {
-                if(MessageBox.Show("Você excedeu a quantidade de tentativas. Deseja Jogar Novamente?", "Ah não" , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                if (Program.playerRankings.Count == Program.quantidadeRanking)
+                {
+                    Program.playerRankings.RemoveAt(0);
+                }
+                Program.playerRankings.Add(new PlayerRanking("Fácil", Program.tema, tentativas, lblTempo.Text, "Venceu"));
+                if (MessageBox.Show("Você excedeu a quantidade de tentativas. Deseja Jogar Novamente?", "Ah não" , MessageBoxButtons.YesNo, MessageBoxIcon.Question) == System.Windows.Forms.DialogResult.Yes) {
+                    exibePecas(botoes());
                     tentativas = 0;
                     lblTentativas.Text = "0";
                     lblTempo.Text = "0";
@@ -176,10 +187,17 @@ namespace JogoMemoria
             pecas.ToList().ForEach(botoes => botoes.Visible = true);
         }
 
+        public void exibePecas(Button[] pecas)
+        {
+            pecas.ToList().ForEach(botoes => botoes.Visible = false);
+        }
+
         private void sairJogo_Click(object sender, EventArgs e)
         {
             var confirmacao = MessageBox.Show("Deseja sair do jogo atual ? ", "Confirmação ", MessageBoxButtons.YesNo);
             if(confirmacao == DialogResult.Yes){
+                Som som = new Som();
+                som.stop();
                 fecharTela(this);
                 FormPrincipal principal = new FormPrincipal();
                 principal.Show();

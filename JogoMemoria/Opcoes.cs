@@ -47,16 +47,15 @@ namespace JogoMemoria
                 comboNumTentavias.Text = "Sim";
                 textNumTentativas.Text = Program.numTentativas.ToString();
                 labelNumTentativas.Focus();
-            }
-            var point = new Point();
-            if (comboNumTentavias.Text == "Sim")
-            {
-                point = new Point(402, 463);
             } else
             {
-                point = new Point(402, 417);
+                var point = new Point(402, 525);
+                btnPronto.Location = point;
             }
-            btnPronto.Location = point;
+            //find name player
+            namePlayer.Text = Program.nomeJogador;
+            quantRanking.Value = Program.quantidadeRanking;
+
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -93,7 +92,7 @@ namespace JogoMemoria
             {
                 labelNumTentativas.Visible = true;
                 textNumTentativas.Visible = true;
-                var point = new Point(402, 463);
+                var point = new Point(402, 563);
                 btnPronto.Location = point;
                 labelNumTentativas.Focus();
             }
@@ -101,7 +100,7 @@ namespace JogoMemoria
             {
                 labelNumTentativas.Visible = false;
                 textNumTentativas.Visible = false;
-                var point = new Point(402, 417);
+                var point = new Point(402, 525);
                 btnPronto.Location = point;
                 Program.numTentativas = 0;
 
@@ -116,7 +115,7 @@ namespace JogoMemoria
             else
             {
                 Program.soundLol = false;
-                checkLolSom.Text = "Unchecked";
+                checkLolSom.Text = "League Of Legends";
             }
             if (comboNumTentavias.Text == "Sim")
             {
@@ -132,6 +131,19 @@ namespace JogoMemoria
             {
                 Program.numTentativas = 0;
             }
+            //Set name Player
+            Program.nomeJogador = namePlayer.Text;
+            if (Program.playerRankings.Count > quantRanking.Value)
+            {
+                MessageBox.Show("Já existe uma quantidade superior armazenada. Feche a aplicação para limpar os resultados.", "Quantidade Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            if (quantRanking.Value > 7)
+            {
+                MessageBox.Show("É possível armazenar no ranking no máximo 7 jogos.", "Quantidade Inválida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            Program.quantidadeRanking = quantRanking.Value;
             MessageBox.Show("As opções foram definidas com sucesso.", "Definições");
             this.Visible = false;
         }
